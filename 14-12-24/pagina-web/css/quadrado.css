@@ -1,0 +1,39 @@
+	body{
+		
+		margin:0;
+		height: 80vh;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url(steven1.png); 
+		overflow-x: hidden;
+	}
+	
+	div.quadrado{
+		width: 150px;
+		height: 150px;
+		border: 2px solid black;
+		margin: 5px; 
+		display: inline-block;
+		box-shadow: 3px 3px 2px #00000045;		
+	}
+	
+	section{
+		margin: 0 auto;
+		width: 1000px;
+		height: 300px;
+	}
+	
+	div.quadrado_1{
+		color: white;
+		background-color: red;
+	}
+	div.quadrado_2{
+		color: white;
+		background-image: linear-gradient(to bottom, blue, purple);
+	}
+	div.quadrado_3{
+		background-image: url(steven.png); 
+		background-color: lightgray;
+	}
+	

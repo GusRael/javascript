@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="athor" content="Gustavo Rael">
+		
+		<title>Projeto Flyer</title>
+	</head>
+	<style>
+		nav{
+				padding:10px;
+				background-color:#F4B300;
+			}
+		ul{
+			display: flex;
+			justify-content: space-around;
+		}
+		li{
+			font-family: Arial, sans-serif;
+			list-style-type:none;
+		}
+		a{
+			text-decoration:none;
+		}
+		
+		.navegacao{
+			color: white;
+			position: relative;
+		}
+		
+		.navegacao:after{
+			content:" ";
+			position: absolute;
+			left:0;
+			bottom:0;
+			width:40%;
+			background-color:#F54D09;
+			padding:1px;
+			transition: 0.4s;
+		}
+		
+		.navegacao:hover::after{
+			width:100%;
+		}
+	</style>
+	<body>
+		<header>
+		
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a class="navegacao" href="noticia-001.html">NOTÍCIA 1</a></li>
+				<li><a class="navegacao" href="noticia-002.html">NOTÍCIA 2</a></li>
+				
+			</ul>
+		</nav>
+		<main>
+			<article>
+				<h1>Projeto Flyer - O Carro Voador</h1>
+				<h2>O táxi voador da Google, mais barato que Uber?</h2>
+				<p>A Google X é uma espécie de "divisão secreta" da Google responsável por desenvolver as mais avançadas tecnologias. E por trás dessa divisão está Sebastian Thrun, que além de ter gundado a Google X é especialista em inteligência artificial e robótica. Ele também ajudou a criar o Google Street View e sabe tudo sobre carros autonômos.</p>
+				<p><a href="https://www.sp.senai.br/" target="_blank">Clique aqui e confira o projeto de carros autonômos da Google.</a></p>
+				<p>Para ele, a visão do futuro pode ser, sim, aquela do filme "De volta para o futuro", com carros voadores por toda parte - o cientista já esteve a frente de uma empresa de veículos voadores em 2015, a Kitty Hawk, patrocinada pelo Google, e hoje considera que levar o transporte para o ar vai tornar as coisa mais rápidas, seguras, além de econômica e ambientalmente mais amigáveis.</p>
+				<p>Thurn acredita que a tecnologia para tamanha façanha já existe. Dois protótipos - chamados Cora e Flyer - já mostraram que é possível conduzir pessoas pelo ar por cerca de 20 minutos e por uma distância de 80 quilômetros ou mais. Para ele, é suficiente para realizarmos viagens diárias cotidianas, como ir até o mercado e buscar os filhos na escola.</p>
+				<p>Outro ponto importante sobre um possível sistemade transporte comcarros voadores é ocusto. Obviamente, o desenvolvimento dessa tecnologia é algo caro, mas Thrun garante que as corridas do que seria um táxi voador podem ser ainda mais baratas do que podemos imaginar. "Parte do nosso sonho na Kitty Hawk é construir um sistema de táxi que possa democratizar essa tecnologia desde o primeiro dia, para que possam usá-lo. Acreditamos que os custos do sistema de táxi aéreo seriam ainda menores do que os custos de um Uber Lyft". </p>
+				
+				<figure>
+					<a href="https://www.sp.senai.br/" target="_blank"><img src="imagens/carro.png" alt=""></a>
+					<figcaption>Clique na imagem acima para ver a proposta de um carro "voador autonômo"</figcaption>
+				</figure>
+			</article>
+			<section>
+				<h2>Algumas informações técnicas:</h2>
+				<p>Por enquanto, o carro é capas de planar 10 metros acima da água e permanecer 20 minutos voando com auntonimia. Como ele se encaixa na categoria ultralight do departamento de aviação norte-americano, o equivalente a ANAC ( Agência Nacional de Aviação Civil ) no Brasil, ele sópode circular pelo espaço aéreo não controlado ( tipicamente áreas remotas onde não há pessoas ou aviões ), por isoo os testes são feitos em regiões de lagos, e não exigem licença de piloto.</p>
+				<h3>Fonte:</h3>
+				<ul>
+					<li>www.tecmundo.com.br</li>
+					<li>epocanegocios.globo.com</li>
+				</ul>
+			</section>
+		</main>
+		
+		<footer>
+			<p>Gustavo Rael Veira - 2024 - Desenvolvimento JavaScript - SENAI</p>
+		</footer>
+		
+	</body>
+</html>

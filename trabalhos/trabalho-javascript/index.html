@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  <body>
+    <h1>Trabalho 10</h1>
+    <h2>
+      Somar dois números, e mostrar o cálculo em uma div com o ID resultado
+    </h2>
+    <form>
+      <p>Número 1: <input type="number" id="number1" /></p>
+      <p>Número 2: <input type="number" id="number2" /></p>
+      <input type="submit" value="ENVIAR" onclick="Somarnumeros()" />
+    </form>
+    <p>Resultado da soma é:</p>
+    <p id="resultado"></p>
+
+    <script>
+      function Somarnumeros() {
+        var number1 = document.getElementById('number1').value;
+        var number2 = document.getElementById('number2').value;
+        var resultado = document.getElementById('resultado');
+        var soma = 1 * number1 + 1 * number2;
+
+        resultado.innerHTML = number1 + ' + ' + number2 + ' = ' + soma;
+      }
+    </script>
+  </body>
+</html>

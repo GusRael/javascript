@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dados</title>
+	</head>
+	<style>
+		fieldset{
+			border: 1px solid black;
+			border-radius: 7px;
+			background-color: #d3d3d3;
+			width: 20%;
+		}
+	</style>
+	<body>
+		<form>
+			<h3>input com type="date"</h3>
+			<p>
+				<fieldset>
+					<p><label for="data_aniversario">Qual sua data de nascimento:</label></p>
+					<input type="date" id="data_aniversario" name="data_aniversario">
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="cor_favorita">Selecione sua cor favorita:</label></p>
+					<input type="color" id="cor_favorita" name="cor_favorita">
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="aniversario_hora">Birthday (data e hora):</label></p>
+					<input type="datetime-local" id="aniversario_hora" name="aniversario_hora">
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="email_pessoal">Digite seu email:</label></p>
+					<input type="email" id="email_pessoal" name="email_pessoal" placeholder="Digite seu email.">
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="meu_arquivo">Selecione um arquivo:</label></p>
+					<input type="file" id="meu_arquivo" name="meu_arquivo">
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="nome_pessoa">Nome:</label></p>
+					<p><input type="text" id="nome_pessoa" name="nome_pessoa" placeholder="Digite seu nome."></p>
+					<input type="hidden" name="custo" value="1000">
+					<input type="submit"value="Enviar">
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="quantidade">Quantidade (1 a 5):</label></p>
+					<p><input type="number" id="quantidade" name="quantidade" max="5" min="1" required></p>
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="qtde">Quantidade:</label></p>
+					<p><input type="number" id="qtd" name="qtd" max="100" min="0" step="10" value="30"></p>
+				</fieldset>
+			</p>
+			<hr>
+			
+			<p>
+				<fieldset>
+					<p><label for="mensagem">Digite sua mensagem:</label></p>
+					<textarea id="mensagem" name="mensagem" rows="10" placeholder="Digite aqui."></textarea>
+				</fieldset>
+			</p>
+			<hr>
+			
+		</form>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dados</title>
+	</head>
+	<body>
+		<h1>Enviando os dados do formulário</h1>
+		<h2>action="dados_recebidos.html"</h2>
+		<h2>method="get" ou "post"</h2>
+		<form action="dados_recebidos.html" method="get">
+			<p><label for="nome">Primeiro nome:</label></p>
+			<p><input type="text" id="nome" name="nome" placeholder="Digite seu nome." required></p>
+			
+			<p><label for="sobrenome">Primeiro nome:</label></p>
+			<p><input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome."></p>
+			
+			<p><label for="senha">Senha:</label></p>
+			<p><input type="password" id="senha" name="senha" placeholder="Digite sua senha." min="3" required></p>
+			
+			<p><input type="submit" value="Enviar">
+			<input type="reset" value="Limpar"></p>
+		</form>
+		<h5>Obs: Faça os testes trocando o method para get e para post, observe a URL da nova página.</h5>
+	</body>
+</html>
